@@ -1,6 +1,6 @@
 ## Noode
 
-A class and basic event system for Node.js
+A javascript class-based system with inheritance and events handling for Node.js.
 
 Documentation available at http://www.aenoa-systems.com/docs/noode/
 		
