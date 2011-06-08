@@ -1,7 +1,7 @@
 {
   "name": "noode",
   "description": "A javascript class-based system with inheritance and events handling for Node.js.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Xavier Laumonier <dev@aenoa-systems.com> (http://www.aenoa.me)",
   "repository": {
     "type": "git",
