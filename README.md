@@ -1,4 +1,4 @@
-Noode
+## Noode
 
 A class and basic event system for Node.js
 
@@ -53,14 +53,13 @@ var callback = function ( event )
 		return true ;
 	}
 	return false ;
-}
+};
 
 bar.addListener( 'getContent' , callback);
-
 foo.addListener( 'getContent' , callback );
 
 
 console.log ( foo.getContent() ) ; // => undefined
-console.log ( bar.getContent() ) ; // => 'Bar-test'
+console.log ( bar.getContent() ) ; // => 'Bar-test
 
 ```
