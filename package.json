@@ -1,0 +1,25 @@
+{
+  "name": "noode",
+  "description": "A Class and EventDispatcher abstraction to create extensibles and event driven classes in Node.js",
+  "version": "0.0.1",
+  "author": "Xavier Laumonier <dev@aenoa-systems.com> (http://www.aenoa.me)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xavierlaumonier/Noode.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/xavierlaumonier/Noode.js/issues"
+  },
+  "main": "./src/noode",
+  "engines": [
+    "node >= 0.4.5"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/xavierlaumonier/Noode.js/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
