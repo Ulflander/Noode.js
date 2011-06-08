@@ -1,6 +1,6 @@
 
 // We require the noode module
-var noode = require(__dirname+'/lib/noode.js');
+var noode = require('noode');
 
 
 
