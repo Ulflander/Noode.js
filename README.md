@@ -2,9 +2,9 @@
 
 A javascript class-based system with inheritance and events handling for Node.js.
 
-Event system is a little more complex than node one.
-Events are noode.Event object instances.
+Event system is a little more complex than node one : Events are 'noode.Event' object instances.
 
+However the API remains the same as Node.js. Check out node docs to know more about EventEmitter. 
 
 Documentation available at http://www.aenoa-systems.com/docs/noode/
 		
