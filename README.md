@@ -6,7 +6,7 @@ Event system is a little more complex than node one : Events are 'noode.Event' o
 
 However the API remains the same as Node.js. Check out node docs to know more about EventEmitter. 
 
-Documentation available at http://www.aenoa-systems.com/docs/noode/
+Documentation available for noode at http://www.aenoa-systems.com/docs/noode/
 		
 Based on John Resig Simple JavaScript Inheritance: http://ejohn.org/blog/simple-javascript-inheritance/ for the base Class
 
