@@ -2,9 +2,13 @@
 
 A javascript class-based system with inheritance and events handling for Node.js.
 
+Event system is a little more complex than node one.
+Events are noode.Event object instances.
+
+
 Documentation available at http://www.aenoa-systems.com/docs/noode/
 		
-Based on John Resig Simple JavaScript Inheritance: http://ejohn.org/blog/simple-javascript-inheritance/ 
+Based on John Resig Simple JavaScript Inheritance: http://ejohn.org/blog/simple-javascript-inheritance/ for the base Class
 
 Both John Resig work and Noode.js part are MIT licensed.
 

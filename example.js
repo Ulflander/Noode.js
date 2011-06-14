@@ -46,11 +46,15 @@ var Foo = noode.AbstractEventDispatcher.extend({
 
 		this.content = content;
 		
+		// Call this._super to init event node.js system
+		this._super () ;
+		
 	},
 	// Here we will dispatch an event
 	getContent: function(){
+		
 		// An easy way to dispatch events without creating an Event object, AbstractEventDispatcher will do it for you
-		if ( this.dispatch('getContent', {content: this.content} ) )
+		if ( this.emit('getContent', {content: this.content} ) )
 		{
 			return this.content ;
 		}
@@ -59,7 +63,7 @@ var Foo = noode.AbstractEventDispatcher.extend({
 	getOddContent: function ()
 	{
 		// The common way to dispatch event
-		if ( this.dispatch( new noode.Event ( 'getContent', {content: this.content} ) ) )
+		if ( this.emit( new noode.Event ( 'getContent', {content: this.content} ) ) )
 		{
 			return this.content ;
 		}
@@ -105,6 +109,8 @@ var callback = function ( event )
 bar.on( 'getContent' , callback);
 foo.on( 'getContent' , callback );
 
+
+
 // Lets try our listeners
 console.log ( bar.getContent() ) ; // => 'Bar-test'
 console.log ( foo.getContent() ) ; // => undefined
@@ -134,7 +140,7 @@ var OddClass = noode.AbstractEventDispatcher.extend ({
 	
 	dispatchOddEvent: function ()
 	{
-		this.dispatch ( new OddEvent() ) ;
+		this.emit ( new OddEvent() ) ;
 	}
 	
 });
@@ -151,7 +157,6 @@ odd.on('oddEvent', function ( event )
 
 // and dispatch it
 odd.dispatchOddEvent () ; // => 'That's odd'
-
 
 
 
