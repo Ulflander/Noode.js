@@ -13,6 +13,15 @@ Based on John Resig Simple JavaScript Inheritance: http://ejohn.org/blog/simple-
 Both John Resig work and Noode.js part are MIT licensed.
 
 
+## Install
+
+Noode is available through npm
+
+```
+npm install noode -g
+```
+
+
 ## Example
 
 
