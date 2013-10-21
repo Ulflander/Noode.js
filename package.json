@@ -1,14 +1,14 @@
 {
   "name": "noode",
   "description": "A javascript class-based system with inheritance and events handling for Node.js.",
-  "version": "0.0.62",
-  "author": "Xavier Laumonier <dev@aenoa-systems.com> (http://www.aenoa.me)",
+  "version": "0.0.63",
+  "author": "Xavier Laumonier <xlaumonier@gmail.com> (https://twitter.com/xavlaumonier)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xavierlaumonier/Noode.js.git"
+    "url": "git://github.com/Ulflander/Noode.js.git"
   },
   "bugs": {
-    "url": "http://github.com/xavierlaumonier/Noode.js/issues"
+    "url": "http://github.com/Ulflander/Noode.js/issues"
   },
   "main": "./lib/noode",
   "engines": [
@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/xavierlaumonier/Noode.js/raw/master/LICENSE"
+      "url": "http://raw.github.com/Ulflander/Noode.js/master/LICENSE"
     }
   ],
   "dependencies": {},
